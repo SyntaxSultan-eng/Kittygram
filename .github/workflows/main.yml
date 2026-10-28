@@ -11,7 +11,7 @@ jobs:
 
     services:
       postgres:
-        image: postgres:13
+        image: postgres:15
         env:
           POSTGRES_DB: kittygram
           POSTGRES_USER: kittygram_user
